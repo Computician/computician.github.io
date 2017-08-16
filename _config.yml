@@ -16,4 +16,4 @@ plugins: [jekyll-paginate]
 # Custom vars
 
 github:
-  repo:           https://github.com/computician/lanyon
+  repo:           https://github.com/computician
