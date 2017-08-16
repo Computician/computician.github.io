@@ -55,7 +55,7 @@ Each command event contains the command `guid`, `cmdid`, and passed parameters. 
 
 Also, sometimes messages being sent between processes just fails (possibly due to the receiver being too busy to respond). To combat this a [MessageFilter](https://msdn.microsoft.com/en-us/library/ms228772.aspx) can be used to intercept the messages and their responses to facilitate retries on specific failures. Note, this only works if the calling thread's apartment state is `ApartmentState.STA` and that is the SAME THREAD that also created the COM object.
 
-Putting all this together, you get the guts of `PMCCommand`. Feel free to take it apart and hack it together for your own needs. https://github.com/Computician/PMCCommand](https://github.com/Computician/PMCCommand) 
+Putting all this together, you get the guts of `PMCCommand`. Feel free to take it apart and hack it together for your own needs. [https://github.com/Computician/PMCCommand](https://github.com/Computician/PMCCommand) 
 
 ### Additional Info
 
